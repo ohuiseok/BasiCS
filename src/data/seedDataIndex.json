@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0",
+  "levels": [
+    {
+      "id": "beginner",
+      "label": "입문",
+      "target": "Java/Spring 백엔드 개발 입문자",
+      "path": "data/cs_beginner.json",
+      "questionCount": 106
+    },
+    {
+      "id": "1year",
+      "label": "1년차",
+      "target": "Java/Spring 백엔드 개발자 1년차",
+      "path": "data/cs_backend_1year.json",
+      "questionCount": 92
+    },
+    {
+      "id": "2year",
+      "label": "2년차",
+      "target": "Java/Spring 백엔드 개발자 2년차",
+      "path": "data/cs_backend_2year.json",
+      "questionCount": 91
+    },
+    {
+      "id": "3year",
+      "label": "3년차",
+      "target": "Java/Spring 백엔드 개발자 3년차",
+      "path": "data/cs_backend_3year.json",
+      "questionCount": 91
+    },
+    {
+      "id": "4year",
+      "label": "4년차",
+      "target": "Java/Spring 백엔드 개발자 4년차",
+      "path": "data/cs_backend_4year.json",
+      "questionCount": 90
+    },
+    {
+      "id": "5year",
+      "label": "5년차",
+      "target": "Java/Spring 백엔드 개발자 5년차",
+      "path": "data/cs_backend_5year.json",
+      "questionCount": 90
+    },
+    {
+      "id": "6year",
+      "label": "6년차",
+      "target": "Java/Spring 백엔드 개발자 6년차",
+      "path": "data/cs_backend_6year.json",
+      "questionCount": 90
+    },
+    {
+      "id": "7year",
+      "label": "7년차",
+      "target": "Java/Spring 백엔드 개발자 7년차",
+      "path": "data/cs_backend_7year.json",
+      "questionCount": 90
+    },
+    {
+      "id": "8year",
+      "label": "8년차",
+      "target": "Java/Spring 백엔드 개발자 8년차",
+      "path": "data/cs_backend_8year.json",
+      "questionCount": 90
+    },
+    {
+      "id": "9year",
+      "label": "9년차",
+      "target": "Java/Spring 백엔드 개발자 9년차",
+      "path": "data/cs_backend_9year.json",
+      "questionCount": 90
+    },
+    {
+      "id": "10year",
+      "label": "10년차",
+      "target": "Java/Spring 백엔드 개발자 10년차",
+      "path": "data/cs_backend_10year.json",
+      "questionCount": 90
+    }
+  ]
+}

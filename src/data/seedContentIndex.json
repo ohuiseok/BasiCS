@@ -1,0 +1,3476 @@
+{
+  "generatedAt": "2026-08-11T12:27:30.351Z",
+  "source": "study/content",
+  "foundations": [
+    {
+      "id": "01-computer-and-program",
+      "order": 1,
+      "title": "컴퓨터와 프로그램",
+      "path": "foundations/01-computer-and-program.json"
+    },
+    {
+      "id": "02-running-a-program",
+      "order": 2,
+      "title": "프로그램이 \"실행 중\"이라는 것",
+      "path": "foundations/02-running-a-program.json"
+    },
+    {
+      "id": "03-operating-system",
+      "order": 3,
+      "title": "운영체제 - 프로그램들을 관리하는 관리자",
+      "path": "foundations/03-operating-system.json"
+    },
+    {
+      "id": "04-memory",
+      "order": 4,
+      "title": "메모리 - 프로그램이 일하는 책상",
+      "path": "foundations/04-memory.json"
+    },
+    {
+      "id": "05-data-and-storage",
+      "order": 5,
+      "title": "데이터와 저장 - 서류철에 넣어두기",
+      "path": "foundations/05-data-and-storage.json"
+    },
+    {
+      "id": "06-tables-and-records",
+      "order": 6,
+      "title": "표와 행/열 - 같은 양식의 서류를 정리하는 법",
+      "path": "foundations/06-tables-and-records.json"
+    },
+    {
+      "id": "07-network-basics",
+      "order": 7,
+      "title": "네트워크 기초 - 컴퓨터끼리 대화하는 법",
+      "path": "foundations/07-network-basics.json"
+    },
+    {
+      "id": "08-server-and-client",
+      "order": 8,
+      "title": "서버와 클라이언트 - 요청하는 사람과 응답하는 사람",
+      "path": "foundations/08-server-and-client.json"
+    },
+    {
+      "id": "09-language-and-translation",
+      "order": 9,
+      "title": "언어와 번역 - 컴퓨터가 코드를 알아듣는 법",
+      "path": "foundations/09-language-and-translation.json"
+    },
+    {
+      "id": "10-values-and-variables",
+      "order": 10,
+      "title": "값과 변수 - 상자에 이름표 붙이기",
+      "path": "foundations/10-values-and-variables.json"
+    },
+    {
+      "id": "11-decisions-and-repetition",
+      "order": 11,
+      "title": "조건문과 반복문 - 갈림길과 되풀이",
+      "path": "foundations/11-decisions-and-repetition.json"
+    },
+    {
+      "id": "12-functions-and-recipes",
+      "order": 12,
+      "title": "함수 - 자주 쓰는 지시서 묶음",
+      "path": "foundations/12-functions-and-recipes.json"
+    },
+    {
+      "id": "13-objects-and-classes",
+      "order": 13,
+      "title": "객체와 클래스 - 설계도와 실제 물건",
+      "path": "foundations/13-objects-and-classes.json"
+    },
+    {
+      "id": "14-what-is-a-framework",
+      "order": 14,
+      "title": "프레임워크 - 이미 차려진 부엌에서 요리하기",
+      "path": "foundations/14-what-is-a-framework.json"
+    },
+    {
+      "id": "15-map-of-this-book",
+      "order": 15,
+      "title": "이 책의 지도 - 여기서부터 어디로 이어지는가",
+      "path": "foundations/15-map-of-this-book.json"
+    }
+  ],
+  "domains": [
+    {
+      "domainFolder": "01-operating-system",
+      "domain": "operating_system",
+      "domainLabel": "운영체제",
+      "topics": [
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "file_descriptor",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "file_descriptor",
+          "topicLabel": "파일 디스크립터",
+          "path": "domains/01-operating-system/file_descriptor/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "파일 디스크립터란 무엇인가 - 팀장이 건네주는 번호표",
+              "path": "domains/01-operating-system/file_descriptor/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "fd 문제가 맞는지 먼저 확인하는 순서",
+              "path": "domains/01-operating-system/file_descriptor/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "open부터 close까지 fd가 지나가는 길",
+              "path": "domains/01-operating-system/file_descriptor/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "fd 고갈이 연쇄 장애로 번질 때",
+              "path": "domains/01-operating-system/file_descriptor/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "fd_limit으로 동시 연결 한계를 계산하기",
+              "path": "domains/01-operating-system/file_descriptor/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "io_model",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "io_model",
+          "topicLabel": "I/O 모델",
+          "path": "domains/01-operating-system/io_model/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "I/O 모델이란 무엇인가 — 서류를 기다리는 방식이 다르면 뭐가 달라질까",
+              "path": "domains/01-operating-system/io_model/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "I/O 모델을 잘못 이해하면 실제로 어떤 문제가 생길까",
+              "path": "domains/01-operating-system/io_model/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "I/O 모델은 내부적으로 어떻게 동작할까 — read 호출부터 이벤트 통보까지",
+              "path": "domains/01-operating-system/io_model/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "이벤트 루프 기준으로 I/O 용량 계산하기",
+              "path": "domains/01-operating-system/io_model/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "I/O 모델 결정을 어디에 둘 것인가",
+              "path": "domains/01-operating-system/io_model/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "process",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "process",
+          "topicLabel": "프로세스",
+          "path": "domains/01-operating-system/process/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "프로세스란 무엇인가 — 크롬이 죽어도 카톡은 안 죽는 이유",
+              "path": "domains/01-operating-system/process/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "프로세스를 대충 다룰 때와 제대로 운영할 때는 뭐가 다를까",
+              "path": "domains/01-operating-system/process/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "프로세스는 내부적으로 어떻게 태어날까 — fork와 exec의 순서",
+              "path": "domains/01-operating-system/process/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "페이지 폴트가 관찰될 때 — 프로세스 문제인지 가설을 세우고 검증하기",
+              "path": "domains/01-operating-system/process/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "실행 대기 줄이 길어지거나, 프로세스 장애가 재현되지 않을 때",
+              "path": "domains/01-operating-system/process/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "scheduling",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "scheduling",
+          "topicLabel": "스케줄링",
+          "path": "domains/01-operating-system/scheduling/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "스케줄링이란 무엇인가 — 팀장이 누구를 먼저 시킬지 정하는 규칙",
+              "path": "domains/01-operating-system/scheduling/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "우선순위가 응답 지연으로 번질 때",
+              "path": "domains/01-operating-system/scheduling/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "run queue에 들어간 작업이 CPU를 받기까지",
+              "path": "domains/01-operating-system/scheduling/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "priority 조정의 트레이드오프",
+              "path": "domains/01-operating-system/scheduling/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "소켓 문제처럼 보이는 스케줄링 장애",
+              "path": "domains/01-operating-system/scheduling/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "system_call",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "system_call",
+          "topicLabel": "시스템 콜",
+          "path": "domains/01-operating-system/system_call/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "시스템 콜이란 무엇인가 — 신입사원이 팀장에게 대신 부탁하는 일",
+              "path": "domains/01-operating-system/system_call/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "스프링 API 요청 하나가 시스템 콜로 어떻게 이어지는가",
+              "path": "domains/01-operating-system/system_call/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "시스템 콜은 내부적으로 어떻게 처리될까 — 요청서에서 반환까지",
+              "path": "domains/01-operating-system/system_call/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "파일 디스크립터 사용량을 시스템 콜 대시보드로 조기에 발견하기",
+              "path": "domains/01-operating-system/system_call/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "시스템 콜이 실패하기 시작할 때 — 연쇄 장애와 재발 방지",
+              "path": "domains/01-operating-system/system_call/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "thread",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "thread",
+          "topicLabel": "스레드",
+          "path": "domains/01-operating-system/thread/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "스레드란 무엇인가 — 신입사원 한 명이 손을 여러 개 쓰는 것",
+              "path": "domains/01-operating-system/thread/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "스케줄러, 컨텍스트 스위치, 블로킹으로 보는 스레드",
+              "path": "domains/01-operating-system/thread/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "코어보다 많은 스레드가 동시에 도는 것처럼 보이는 이유",
+              "path": "domains/01-operating-system/thread/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "요청 증가 때 스레드가 병목이 되는 모습",
+              "path": "domains/01-operating-system/thread/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "스레드를 관찰 가능하게 만드는 지표 설계",
+              "path": "domains/01-operating-system/thread/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "01-operating-system",
+          "topicFolder": "virtual_memory",
+          "domain": "operating_system",
+          "domainLabel": "운영체제",
+          "topic": "virtual_memory",
+          "topicLabel": "가상 메모리",
+          "path": "domains/01-operating-system/virtual_memory/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문",
+              "title": "가상 메모리란 무엇인가 — 팀장이 보여주는 가짜 책상 크기",
+              "path": "domains/01-operating-system/virtual_memory/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "JVM 힙은 왜 '하나로 이어진 공간'처럼 보이는데 실제로는 흩어져 있을까",
+              "path": "domains/01-operating-system/virtual_memory/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "가상 메모리는 내부적으로 어떻게 동작할까 — 책상 칸을 짚는 순간부터",
+              "path": "domains/01-operating-system/virtual_memory/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "스와핑이 자바/스프링 서버를 연쇄 장애로 끌고 가는 과정",
+              "path": "domains/01-operating-system/virtual_memory/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "스왑을 켜둘까, 끄고 정밀하게 관리할까 — 단순함과 예측 가능성 사이",
+              "path": "domains/01-operating-system/virtual_memory/5year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "02-network",
+      "domain": "network",
+      "domainLabel": "네트워크",
+      "topics": [
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "dns",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "dns",
+          "topicLabel": "DNS",
+          "path": "domains/02-network/dns/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "DNS - 이름이 주소로 바뀌는 순간, 그리고 그 기억이 문제가 될 때",
+              "path": "domains/02-network/dns/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "트래픽이 늘 때 DNS 조회가 조용히 병목이 되는 순서",
+              "path": "domains/02-network/dns/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "ip_routing",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "ip_routing",
+          "topicLabel": "IP 라우팅",
+          "path": "domains/02-network/ip_routing/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "IP 주소와 라우팅 - 편지가 다른 회사까지 가는 원리",
+              "path": "domains/02-network/ip_routing/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "서브넷·라우팅 테이블·MTU가 실무에서 겹치는 지점",
+              "path": "domains/02-network/ip_routing/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "라우팅 테이블 조회 지연과 비대칭 라우팅이 만드는 병목",
+              "path": "domains/02-network/ip_routing/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "load_balancing_algorithm",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "load_balancing_algorithm",
+          "topicLabel": "로드밸런싱 알고리즘",
+          "path": "domains/02-network/load_balancing_algorithm/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "라운드로빈과 최소 연결, 무엇이 다르고 언제 쓰나",
+              "path": "domains/02-network/load_balancing_algorithm/1year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "proxy_load_balancer",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "proxy_load_balancer",
+          "topicLabel": "프록시와 로드밸런서",
+          "path": "domains/02-network/proxy_load_balancer/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "손님이 주방까지 직접 안 들어가는 이유 - 프록시와 로드밸런서",
+              "path": "domains/02-network/proxy_load_balancer/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "로드밸런서 자체가 병목이 되는 시나리오와 확인 순서",
+              "path": "domains/02-network/proxy_load_balancer/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "tcp_connection",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "tcp_connection",
+          "topicLabel": "TCP 연결",
+          "path": "domains/02-network/tcp_connection/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "TCP 연결 - 등기우편처럼 세 번 확인하고 시작하는 통로",
+              "path": "domains/02-network/tcp_connection/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "동시 접속이 몰릴 때 TCP 연결 어디가 막히는지 순서대로 짚기",
+              "path": "domains/02-network/tcp_connection/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "tcp_control",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "tcp_control",
+          "topicLabel": "TCP 흐름/혼잡 제어",
+          "path": "domains/02-network/tcp_control/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "TCP는 왜 처음부터 전속력으로 안 보낼까",
+              "path": "domains/02-network/tcp_control/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "요청이 몰릴 때 흐름/혼잡 제어가 병목이 되는 순서로 확인하기",
+              "path": "domains/02-network/tcp_control/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "udp",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "udp",
+          "topicLabel": "UDP",
+          "path": "domains/02-network/udp/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "확인 답장 없이 그냥 보내기만 하는 UDP",
+              "path": "domains/02-network/udp/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "요청이 몰릴 때 UDP가 병목이 되는 순서로 확인하기",
+              "path": "domains/02-network/udp/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "02-network",
+          "topicFolder": "url_request_flow",
+          "domain": "network",
+          "domainLabel": "네트워크",
+          "topic": "url_request_flow",
+          "topicLabel": "URL 요청 전체 흐름",
+          "path": "domains/02-network/url_request_flow/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "주소를 치고 엔터를 누르면 뒤에서 무슨 일이 일어날까",
+              "path": "domains/02-network/url_request_flow/beginner.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "03-web-http",
+      "domain": "web_http",
+      "domainLabel": "Web/HTTP",
+      "topics": [
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "http_caching",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "http_caching",
+          "topicLabel": "HTTP Caching",
+          "path": "domains/03-web-http/http_caching/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "HTTP Caching: 입문자 관점",
+              "path": "domains/03-web-http/http_caching/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "HTTP Caching: 2년차 관점",
+              "path": "domains/03-web-http/http_caching/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "http_connection",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "http_connection",
+          "topicLabel": "HTTP 연결 관리",
+          "path": "domains/03-web-http/http_connection/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "HTTP 연결 관리의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/03-web-http/http_connection/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "HTTP 연결 관리를 운영 관점에서 확인하는 법",
+              "path": "domains/03-web-http/http_connection/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "HTTP 연결 관리를 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/03-web-http/http_connection/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "http_semantics",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "http_semantics",
+          "topicLabel": "HTTP 의미론",
+          "path": "domains/03-web-http/http_semantics/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "HTTP 의미론의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/03-web-http/http_semantics/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "HTTP 의미론을 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/03-web-http/http_semantics/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "http_status_code_practice",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "http_status_code_practice",
+          "topicLabel": "HTTP 상태 코드 실전 활용",
+          "path": "domains/03-web-http/http_status_code_practice/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "왜 성공과 실패 상태 코드를 정확히 구분해서 반환해야 하는가",
+              "path": "domains/03-web-http/http_status_code_practice/1year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "http3_quic",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "http3_quic",
+          "topicLabel": "HTTP/3와 QUIC",
+          "path": "domains/03-web-http/http3_quic/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "HTTP/3와 QUIC - 통로를 여러 갈래로 나눠 쓰는 이유",
+              "path": "domains/03-web-http/http3_quic/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "HTTP/3를 지원하지 않을 때 실제로 잃는 것",
+              "path": "domains/03-web-http/http3_quic/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "rest_api",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "rest_api",
+          "topicLabel": "REST API",
+          "path": "domains/03-web-http/rest_api/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "REST API의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/03-web-http/rest_api/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "REST API를 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/03-web-http/rest_api/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "rest_api_design_rule",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "rest_api_design_rule",
+          "topicLabel": "REST API 설계 규칙",
+          "path": "domains/03-web-http/rest_api_design_rule/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "RESTful API URI, 왜 아무렇게나 지으면 안 될까",
+              "path": "domains/03-web-http/rest_api_design_rule/beginner.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "03-web-http",
+          "topicFolder": "tls_https",
+          "domain": "web_http",
+          "domainLabel": "Web/HTTP",
+          "topic": "tls_https",
+          "topicLabel": "TLS/HTTPS",
+          "path": "domains/03-web-http/tls_https/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "TLS/HTTPS: 입문자 관점",
+              "path": "domains/03-web-http/tls_https/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "TLS/HTTPS: 2년차 관점",
+              "path": "domains/03-web-http/tls_https/2year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "04-java",
+      "domain": "java",
+      "domainLabel": "Java",
+      "topics": [
+        {
+          "domainFolder": "04-java",
+          "topicFolder": "classloader",
+          "domain": "java",
+          "domainLabel": "Java",
+          "topic": "classloader",
+          "topicLabel": "클래스로더",
+          "path": "domains/04-java/classloader/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "클래스로더의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/04-java/classloader/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "클래스로더를 운영 관점에서 확인하는 법",
+              "path": "domains/04-java/classloader/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "클래스로더를 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/04-java/classloader/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "클래스로더의 책임 경계와 설계 판단",
+              "path": "domains/04-java/classloader/3year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "04-java",
+          "topicFolder": "generic",
+          "domain": "java",
+          "domainLabel": "Java",
+          "topic": "generic",
+          "topicLabel": "제네릭",
+          "path": "domains/04-java/generic/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "제네릭의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/04-java/generic/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "제네릭을 운영 관점에서 확인하는 법",
+              "path": "domains/04-java/generic/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "제네릭을 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/04-java/generic/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "제네릭의 책임 경계와 설계 판단",
+              "path": "domains/04-java/generic/3year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "05-jvm",
+      "domain": "jvm",
+      "domainLabel": "JVM",
+      "topics": [
+        {
+          "domainFolder": "05-jvm",
+          "topicFolder": "garbage_collection",
+          "domain": "jvm",
+          "domainLabel": "JVM",
+          "topic": "garbage_collection",
+          "topicLabel": "가비지 컬렉션",
+          "path": "domains/05-jvm/garbage_collection/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "가비지 컬렉션 첫 그림 - 책상 위 서류를 누가 치우는가",
+              "path": "domains/05-jvm/garbage_collection/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "가비지 컬렉션을 잘못 이해했을 때 실제로 생기는 문제",
+              "path": "domains/05-jvm/garbage_collection/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "05-jvm",
+          "topicFolder": "jvm_failure",
+          "domain": "jvm",
+          "domainLabel": "JVM",
+          "topic": "jvm_failure",
+          "topicLabel": "JVM 장애",
+          "path": "domains/05-jvm/jvm_failure/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "JVM이 뻗을 때, 재시작만으로 끝내면 안 되는 이유",
+              "path": "domains/05-jvm/jvm_failure/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "장애 원인을 성급하게 단정할 때 생기는 문제",
+              "path": "domains/05-jvm/jvm_failure/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "05-jvm",
+          "topicFolder": "object_allocation",
+          "domain": "jvm",
+          "domainLabel": "JVM",
+          "topic": "object_allocation",
+          "topicLabel": "객체 할당",
+          "path": "domains/05-jvm/object_allocation/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "객체 하나를 만드는 일이 왜 그냥 넘길 일이 아닌가",
+              "path": "domains/05-jvm/object_allocation/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "할당 비용을 잘못 판단했을 때 생기는 문제",
+              "path": "domains/05-jvm/object_allocation/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "05-jvm",
+          "topicFolder": "runtime_memory",
+          "domain": "jvm",
+          "domainLabel": "JVM",
+          "topic": "runtime_memory",
+          "topicLabel": "런타임 메모리 영역",
+          "path": "domains/05-jvm/runtime_memory/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "런타임 메모리 영역의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/05-jvm/runtime_memory/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "런타임 메모리 영역을 운영 관점에서 확인하는 법",
+              "path": "domains/05-jvm/runtime_memory/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "런타임 메모리 영역을 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/05-jvm/runtime_memory/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "05-jvm",
+          "topicFolder": "stop_the_world",
+          "domain": "jvm",
+          "domainLabel": "JVM",
+          "topic": "stop_the_world",
+          "topicLabel": "Stop-the-World",
+          "path": "domains/05-jvm/stop_the_world/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "모든 손이 한꺼번에 멈추는 순간",
+              "path": "domains/05-jvm/stop_the_world/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Stop-the-World를 GC와 동일시할 때 생기는 문제",
+              "path": "domains/05-jvm/stop_the_world/2year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "06-database",
+      "domain": "database",
+      "domainLabel": "데이터베이스",
+      "topics": [
+        {
+          "domainFolder": "06-database",
+          "topicFolder": "index",
+          "domain": "database",
+          "domainLabel": "데이터베이스",
+          "topic": "index",
+          "topicLabel": "인덱스",
+          "path": "domains/06-database/index/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "인덱스가 없으면 왜 느려질까 - 선택도와 복합 인덱스의 첫걸음",
+              "path": "domains/06-database/index/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "인덱스를 대충 추가할 때와 제대로 설계할 때",
+              "path": "domains/06-database/index/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "인덱스 문제가 lock wait와 트랜잭션 지연으로 번질 때",
+              "path": "domains/06-database/index/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "락이 오래 붙잡히는 실패 모드, 용량 산정, 그리고 인덱스는 누구 책임인가",
+              "path": "domains/06-database/index/5year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "인덱스가 한계에 닿았는지, 재설계 비용은 얼마나 드는지",
+              "path": "domains/06-database/index/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "단순한 인덱스 구조 vs 확장성 있는 구조, 그 판단 기준",
+              "path": "domains/06-database/index/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "06-database",
+          "topicFolder": "query_processing",
+          "domain": "database",
+          "domainLabel": "데이터베이스",
+          "topic": "query_processing",
+          "topicLabel": "쿼리 처리",
+          "path": "domains/06-database/query_processing/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "쿼리 처리를 왜 신경 써야 할까 - 옵티마이저와 조인 알고리즘의 첫걸음",
+              "path": "domains/06-database/query_processing/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "쿼리 처리를 방치할 때와 제대로 관리할 때",
+              "path": "domains/06-database/query_processing/2year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "쿼리 처리 변경 전 체크리스트, 선택도 장애, 그리고 처리 용량 산정",
+              "path": "domains/06-database/query_processing/6year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "복제본 사이의 쿼리 처리 차이를 대시보드로 조기에 발견하기",
+              "path": "domains/06-database/query_processing/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "복제 지연 장애를 시간순으로 되짚어 쿼리 처리 문제인지 가려내기",
+              "path": "domains/06-database/query_processing/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "06-database",
+          "topicFolder": "transaction",
+          "domain": "database",
+          "domainLabel": "데이터베이스",
+          "topic": "transaction",
+          "topicLabel": "트랜잭션",
+          "path": "domains/06-database/transaction/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "여러 서류를 한 번에 고칠 때, 왜 트랜잭션이 필요할까",
+              "path": "domains/06-database/transaction/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "트랜잭션을 대충 처리할 때와 제대로 처리할 때",
+              "path": "domains/06-database/transaction/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "락 대기, 처리량 한계, 실행계획 변화 — 트랜잭션 장애를 숫자로 다루기",
+              "path": "domains/06-database/transaction/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "도입 전 요구사항 점검, 관찰 가능성 설계, 그리고 그 위에서 하는 장애 진단",
+              "path": "domains/06-database/transaction/5year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "트랜잭션이 한계에 가까워졌는가 — 임계값, 전환 비용, 팀 역량까지 함께 보기",
+              "path": "domains/06-database/transaction/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "단순한 트랜잭션 구조와 확장성 있는 구조, 무엇을 우선할 것인가",
+              "path": "domains/06-database/transaction/10year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "07-spring",
+      "domain": "spring",
+      "domainLabel": "Spring",
+      "topics": [
+        {
+          "domainFolder": "07-spring",
+          "topicFolder": "aop_proxy",
+          "domain": "spring",
+          "domainLabel": "Spring",
+          "topic": "aop_proxy",
+          "topicLabel": "AOP 프록시",
+          "path": "domains/07-spring/aop_proxy/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "AOP 프록시: 입문자 관점의 핵심 흐름",
+              "path": "domains/07-spring/aop_proxy/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "AOP 프록시: 1년차 관점의 핵심 흐름",
+              "path": "domains/07-spring/aop_proxy/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "AOP 프록시: 2년차 관점의 핵심 흐름",
+              "path": "domains/07-spring/aop_proxy/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "AOP 프록시의 호출 경로, self-invocation, 운영 비용",
+              "path": "domains/07-spring/aop_proxy/3year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "07-spring",
+          "topicFolder": "ioc_di",
+          "domain": "spring",
+          "domainLabel": "Spring",
+          "topic": "ioc_di",
+          "topicLabel": "IoC와 의존성 주입",
+          "path": "domains/07-spring/ioc_di/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "IoC와 의존성 주입의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/07-spring/ioc_di/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "IoC와 의존성 주입을 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/07-spring/ioc_di/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "07-spring",
+          "topicFolder": "spring_boot_actuator",
+          "domain": "spring",
+          "domainLabel": "Spring",
+          "topic": "spring_boot_actuator",
+          "topicLabel": "Spring Boot Actuator",
+          "path": "domains/07-spring/spring_boot_actuator/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "Spring Boot Actuator: 입문자 관점",
+              "path": "domains/07-spring/spring_boot_actuator/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Spring Boot Actuator: 2년차 관점",
+              "path": "domains/07-spring/spring_boot_actuator/2year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "Actuator 운영 노출, 병목 진단, 헬스체크 설계",
+              "path": "domains/07-spring/spring_boot_actuator/4year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "07-spring",
+          "topicFolder": "spring_mvc_lifecycle",
+          "domain": "spring",
+          "domainLabel": "Spring",
+          "topic": "spring_mvc_lifecycle",
+          "topicLabel": "Spring MVC 요청 생명주기",
+          "path": "domains/07-spring/spring_mvc_lifecycle/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "Spring MVC 요청 생명주기의 첫 그림 - 왜 서버에서 드러날까",
+              "path": "domains/07-spring/spring_mvc_lifecycle/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Spring MVC 요청 생명주기를 잘못 이해했을 때 생기는 실제 문제",
+              "path": "domains/07-spring/spring_mvc_lifecycle/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "07-spring",
+          "topicFolder": "spring_transaction",
+          "domain": "spring",
+          "domainLabel": "Spring",
+          "topic": "spring_transaction",
+          "topicLabel": "Spring 트랜잭션",
+          "path": "domains/07-spring/spring_transaction/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "Spring 트랜잭션: 입문자 관점의 핵심 흐름",
+              "path": "domains/07-spring/spring_transaction/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Spring 트랜잭션: 2년차 관점의 핵심 흐름",
+              "path": "domains/07-spring/spring_transaction/2year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "07-spring",
+          "topicFolder": "tomcat_thread_pool",
+          "domain": "spring",
+          "domainLabel": "Spring",
+          "topic": "tomcat_thread_pool",
+          "topicLabel": "Tomcat 스레드 풀",
+          "path": "domains/07-spring/tomcat_thread_pool/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "Tomcat 스레드 풀: 입문자 관점의 핵심 흐름",
+              "path": "domains/07-spring/tomcat_thread_pool/beginner.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Tomcat 스레드 풀: 2년차 관점의 핵심 흐름",
+              "path": "domains/07-spring/tomcat_thread_pool/2year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "08-persistence",
+      "domain": "persistence",
+      "domainLabel": "Persistence",
+      "topics": [
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "dirty_checking",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "dirty_checking",
+          "topicLabel": "더티 체킹",
+          "path": "domains/08-persistence/dirty_checking/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "더티 체킹: 입문자가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/dirty_checking/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "더티 체킹: 1년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/dirty_checking/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "더티 체킹: 2년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/dirty_checking/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "더티 체킹: 3년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/dirty_checking/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "더티 체킹: 4년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/dirty_checking/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "더티 체킹: 5년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/dirty_checking/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "hikaricp",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "hikaricp",
+          "topicLabel": "HikariCP",
+          "path": "domains/08-persistence/hikaricp/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "HikariCP: 입문자가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/hikaricp/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "HikariCP: 1년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/hikaricp/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "HikariCP: 2년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/hikaricp/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "HikariCP: 3년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/hikaricp/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "HikariCP: 4년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/hikaricp/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "HikariCP: 5년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/hikaricp/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "jdbc",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "jdbc",
+          "topicLabel": "JDBC",
+          "path": "domains/08-persistence/jdbc/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "JDBC: 입문자가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/jdbc/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "JDBC: 1년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/jdbc/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "JDBC: 2년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/jdbc/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "JDBC: 3년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/jdbc/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "JDBC: 4년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/jdbc/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "JDBC: 5년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/jdbc/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "jpa_locking",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "jpa_locking",
+          "topicLabel": "JPA 락",
+          "path": "domains/08-persistence/jpa_locking/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "JPA 락: 입문자 관점의 핵심 흐름",
+              "path": "domains/08-persistence/jpa_locking/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "JPA 락: 1년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/jpa_locking/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "JPA 락: 2년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/jpa_locking/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "JPA 락: 3년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/jpa_locking/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "JPA 락: 4년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/jpa_locking/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "JPA 락: 5년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/jpa_locking/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "lazy_loading_n_plus_one",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "lazy_loading_n_plus_one",
+          "topicLabel": "지연 로딩과 N+1",
+          "path": "domains/08-persistence/lazy_loading_n_plus_one/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "지연 로딩과 N+1: 입문자 관점의 핵심 흐름",
+              "path": "domains/08-persistence/lazy_loading_n_plus_one/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "지연 로딩과 N+1: 1년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/lazy_loading_n_plus_one/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "지연 로딩과 N+1: 2년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/lazy_loading_n_plus_one/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "지연 로딩과 N+1: 3년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/lazy_loading_n_plus_one/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "지연 로딩과 N+1: 4년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/lazy_loading_n_plus_one/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "지연 로딩과 N+1: 5년차 관점의 핵심 흐름",
+              "path": "domains/08-persistence/lazy_loading_n_plus_one/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "orm_jpa",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "orm_jpa",
+          "topicLabel": "ORM과 JPA",
+          "path": "domains/08-persistence/orm_jpa/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "ORM과 JPA: 입문자가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/orm_jpa/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "ORM과 JPA: 1년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/orm_jpa/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "ORM과 JPA: 2년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/orm_jpa/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "ORM과 JPA: 3년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/orm_jpa/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "ORM과 JPA: 4년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/orm_jpa/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "ORM과 JPA: 5년차가 알아야 할 흐름과 판단 기준",
+              "path": "domains/08-persistence/orm_jpa/5year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "08-persistence",
+          "topicFolder": "persistence_context",
+          "domain": "persistence",
+          "domainLabel": "Persistence",
+          "topic": "persistence_context",
+          "topicLabel": "영속성 컨텍스트",
+          "path": "domains/08-persistence/persistence_context/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "영속성 컨텍스트의 첫 그림 - 한 API 요청 동안 객체가 관리되는 흐름",
+              "path": "domains/08-persistence/persistence_context/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "flush와 commit, managed와 detached를 헷갈릴 때 생기는 실제 문제",
+              "path": "domains/08-persistence/persistence_context/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "영속성 컨텍스트가 병목이 되는 상황과 확인 순서",
+              "path": "domains/08-persistence/persistence_context/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "영속성 컨텍스트 범위 설계와 디버깅 기준",
+              "path": "domains/08-persistence/persistence_context/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "lazy loading 지연이 영속성 컨텍스트 문제인지 가르는 방법",
+              "path": "domains/08-persistence/persistence_context/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "처리량, 지연시간, 대기열, headroom으로 보는 영속성 컨텍스트 용량",
+              "path": "domains/08-persistence/persistence_context/5year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "09-security",
+      "domain": "security",
+      "domainLabel": "보안",
+      "topics": [
+        {
+          "domainFolder": "09-security",
+          "topicFolder": "authentication",
+          "domain": "security",
+          "domainLabel": "보안",
+          "topic": "authentication",
+          "topicLabel": "인증",
+          "path": "domains/09-security/authentication/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "인증: 신분증 확인부터 중앙화 판단까지",
+              "path": "domains/09-security/authentication/7year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "인증 대시보드로 공격 노출 범위 조기에 잡기",
+              "path": "domains/09-security/authentication/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "인증 관찰성을 유지보수성·비용·가용성·담당 주체로 설계하기",
+              "path": "domains/09-security/authentication/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "09-security",
+          "topicFolder": "authorization",
+          "domain": "security",
+          "domainLabel": "보안",
+          "topic": "authorization",
+          "topicLabel": "인가",
+          "path": "domains/09-security/authorization/_topic.json",
+          "levels": [
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "인가를 어디에 두고, 얼마나 캐싱해도 되는가",
+              "path": "domains/09-security/authorization/3year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "인가를 관찰 가능하게 만들기, 그리고 도입 전에 확인할 것",
+              "path": "domains/09-security/authorization/7year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "역할 기반이냐 정책 엔진이냐 — 인가 구조 확장 판단",
+              "path": "domains/09-security/authorization/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "인가 체계를 새로 들이거나 바꾸기 전에 확인할 것들",
+              "path": "domains/09-security/authorization/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "09-security",
+          "topicFolder": "oauth_oidc",
+          "domain": "security",
+          "domainLabel": "보안",
+          "topic": "oauth_oidc",
+          "topicLabel": "OAuth와 OIDC",
+          "path": "domains/09-security/oauth_oidc/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "OAuth/OIDC 장애를 원인·영향 범위·완화책·재발 방지책으로 정리하기",
+              "path": "domains/09-security/oauth_oidc/7year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "시크릿 순환을 조기에 발견하는 OAuth/OIDC 대시보드 설계",
+              "path": "domains/09-security/oauth_oidc/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "OAuth/OIDC 관찰성을 유지보수성·비용·가용성·담당 주체와 사용자/내부 영향으로 설계하기",
+              "path": "domains/09-security/oauth_oidc/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "09-security",
+          "topicFolder": "secret_management",
+          "domain": "security",
+          "domainLabel": "Security",
+          "topic": "secret_management",
+          "topicLabel": "Secret Management",
+          "path": "domains/09-security/secret_management/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "시크릿 관리의 흐름, 유출 범위, 로테이션 기본기",
+              "path": "domains/09-security/secret_management/1year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "Secret Management: 7년차 관점",
+              "path": "domains/09-security/secret_management/7year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "Secret Management: 9년차 관점",
+              "path": "domains/09-security/secret_management/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "Secret Management: 10년차 관점",
+              "path": "domains/09-security/secret_management/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "09-security",
+          "topicFolder": "session_jwt",
+          "domain": "security",
+          "domainLabel": "보안",
+          "topic": "session_jwt",
+          "topicLabel": "세션과 JWT",
+          "path": "domains/09-security/session_jwt/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "세션과 JWT 중 무엇을 도입할지, 그리고 실패했을 때 무슨 일이 생기는지",
+              "path": "domains/09-security/session_jwt/7year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "세션 스토어냐 JWT냐 — 한계가 다가올 때 무엇을 늘릴지",
+              "path": "domains/09-security/session_jwt/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "세션/JWT 처리 한계를 처리량·지연시간·대기열·여유 자원으로 계산하기",
+              "path": "domains/09-security/session_jwt/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "09-security",
+          "topicFolder": "web_attack",
+          "domain": "security",
+          "domainLabel": "보안",
+          "topic": "web_attack",
+          "topicLabel": "웹 공격 방어",
+          "path": "domains/09-security/web_attack/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "웹 공격이 노리는 지점과, 트래픽이 10배 늘 때 방어 구조 확장하기",
+              "path": "domains/09-security/web_attack/7year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "프레임워크 기본값이냐 WAF냐 — 일반 원리와 구현체를 나눠 판단하기",
+              "path": "domains/09-security/web_attack/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "웹 공격 방어 체계를 새로 들이거나 바꾸기 전에 확인할 것들",
+              "path": "domains/09-security/web_attack/10year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "10-cache",
+      "domain": "cache",
+      "domainLabel": "Cache",
+      "topics": [
+        {
+          "domainFolder": "10-cache",
+          "topicFolder": "cache_basics",
+          "domain": "cache",
+          "domainLabel": "Cache",
+          "topic": "cache_basics",
+          "topicLabel": "Cache Basics",
+          "path": "domains/10-cache/cache_basics/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Cache Basics: 2년차 관점",
+              "path": "domains/10-cache/cache_basics/2year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "Cache Basics: 7년차 관점",
+              "path": "domains/10-cache/cache_basics/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "Cache Basics: 8년차 관점",
+              "path": "domains/10-cache/cache_basics/8year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "Cache Basics: 10년차 관점",
+              "path": "domains/10-cache/cache_basics/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "10-cache",
+          "topicFolder": "cache_consistency",
+          "domain": "cache",
+          "domainLabel": "Cache",
+          "topic": "cache_consistency",
+          "topicLabel": "캐시 일관성",
+          "path": "domains/10-cache/cache_consistency/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "캐시 일관성이 깨지면 생기는 연쇄 장애",
+              "path": "domains/10-cache/cache_consistency/2year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "캐시 일관성의 트레이드오프와 장애 대응",
+              "path": "domains/10-cache/cache_consistency/5year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "캐시 일관성의 용량 한계와 데이터 소유권",
+              "path": "domains/10-cache/cache_consistency/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "트래픽 10배 증가에 맞춘 캐시 일관성 확장 순서",
+              "path": "domains/10-cache/cache_consistency/8year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "캐시 일관성 장애의 원인 정리와 장기 소유권",
+              "path": "domains/10-cache/cache_consistency/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "10-cache",
+          "topicFolder": "cache_policy",
+          "domain": "cache",
+          "domainLabel": "Cache",
+          "topic": "cache_policy",
+          "topicLabel": "Cache Policy",
+          "path": "domains/10-cache/cache_policy/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Cache Policy: 2년차 관점",
+              "path": "domains/10-cache/cache_policy/2year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "Cache Policy: 7년차 관점",
+              "path": "domains/10-cache/cache_policy/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "Cache Policy: 8년차 관점",
+              "path": "domains/10-cache/cache_policy/8year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "Cache Policy: 10년차 관점",
+              "path": "domains/10-cache/cache_policy/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "10-cache",
+          "topicFolder": "cache_stampede",
+          "domain": "cache",
+          "domainLabel": "Cache",
+          "topic": "cache_stampede",
+          "topicLabel": "Cache Stampede",
+          "path": "domains/10-cache/cache_stampede/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Cache Stampede: 2년차 관점",
+              "path": "domains/10-cache/cache_stampede/2year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "Cache Stampede: 7년차 관점",
+              "path": "domains/10-cache/cache_stampede/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "Cache Stampede: 8년차 관점",
+              "path": "domains/10-cache/cache_stampede/8year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "Cache Stampede: 10년차 관점",
+              "path": "domains/10-cache/cache_stampede/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "10-cache",
+          "topicFolder": "multi_level_cache",
+          "domain": "cache",
+          "domainLabel": "Cache",
+          "topic": "multi_level_cache",
+          "topicLabel": "다단계 캐시",
+          "path": "domains/10-cache/multi_level_cache/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "다단계 캐시가 장애 나면 생기는 연쇄 장애",
+              "path": "domains/10-cache/multi_level_cache/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "다단계 캐시의 내부 동작과 설계 판단",
+              "path": "domains/10-cache/multi_level_cache/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "다단계 캐시 장애 진단, 용량 관리, 관측성 설계",
+              "path": "domains/10-cache/multi_level_cache/4year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "다단계 캐시 실패와 데이터 소유권",
+              "path": "domains/10-cache/multi_level_cache/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "트래픽 10배 증가에 맞춘 다단계 캐시 확장 순서",
+              "path": "domains/10-cache/multi_level_cache/8year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "다단계 캐시 장애의 원인 정리와 장기 소유권",
+              "path": "domains/10-cache/multi_level_cache/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "10-cache",
+          "topicFolder": "redis",
+          "domain": "cache",
+          "domainLabel": "Cache",
+          "topic": "redis",
+          "topicLabel": "Redis",
+          "path": "domains/10-cache/redis/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "Redis: 2년차 관점",
+              "path": "domains/10-cache/redis/2year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "Redis 장애 모드, hot key, 확장 판단",
+              "path": "domains/10-cache/redis/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "Redis: 7년차 관점",
+              "path": "domains/10-cache/redis/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "Redis: 8년차 관점",
+              "path": "domains/10-cache/redis/8year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "Redis: 10년차 관점",
+              "path": "domains/10-cache/redis/10year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "11-data-structure",
+      "domain": "data_structure",
+      "domainLabel": "Data Structure",
+      "topics": [
+        {
+          "domainFolder": "11-data-structure",
+          "topicFolder": "queue_buffer",
+          "domain": "data_structure",
+          "domainLabel": "Data Structure",
+          "topic": "queue_buffer",
+          "topicLabel": "Queue와 Buffer",
+          "path": "domains/11-data-structure/queue_buffer/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "Queue와 Buffer: 입문자 관점",
+              "path": "domains/11-data-structure/queue_buffer/beginner.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "12-java-concurrency",
+      "domain": "java_concurrency",
+      "domainLabel": "자바 동시성",
+      "topics": [
+        {
+          "domainFolder": "12-java-concurrency",
+          "topicFolder": "completable_future",
+          "domain": "java_concurrency",
+          "domainLabel": "자바 동시성",
+          "topic": "completable_future",
+          "topicLabel": "CompletableFuture",
+          "path": "domains/12-java-concurrency/completable_future/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "결과를 기다리지 않고 다음 일을 잇는 법, 그리고 흔한 실수",
+              "path": "domains/12-java-concurrency/completable_future/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "재현 안 되는 CompletableFuture 장애를 좁혀가는 순서",
+              "path": "domains/12-java-concurrency/completable_future/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "내부 동작을 알아야 어디에 코드를 둘지 판단할 수 있다",
+              "path": "domains/12-java-concurrency/completable_future/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "executor를 나눌수록 좋아지는 것과, 그 대가로 늘어나는 것",
+              "path": "domains/12-java-concurrency/completable_future/4year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "12-java-concurrency",
+          "topicFolder": "executor_thread_pool",
+          "domain": "java_concurrency",
+          "domainLabel": "자바 동시성",
+          "topic": "executor_thread_pool",
+          "topicLabel": "Executor와 스레드 풀",
+          "path": "domains/12-java-concurrency/executor_thread_pool/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "요청마다 손을 새로 뽑지 않고, 실행 관리자에게 맡기기",
+              "path": "domains/12-java-concurrency/executor_thread_pool/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "재현 안 되는 실행 관리자 장애를 순서대로 좁혀가기",
+              "path": "domains/12-java-concurrency/executor_thread_pool/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "가시성 문제를 실행 관리자 탓으로 돌리기 전에, 가설부터 세운다",
+              "path": "domains/12-java-concurrency/executor_thread_pool/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "에러 로그 없는 병목과, 거부가 거부를 부르는 연쇄 장애",
+              "path": "domains/12-java-concurrency/executor_thread_pool/4year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "12-java-concurrency",
+          "topicFolder": "java_thread",
+          "domain": "java_concurrency",
+          "domainLabel": "자바 동시성",
+          "topic": "java_thread",
+          "topicLabel": "자바 스레드",
+          "path": "domains/12-java-concurrency/java_thread/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "자바 코드에서 손을 부리는 법 - Runnable부터 TERMINATED까지",
+              "path": "domains/12-java-concurrency/java_thread/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "재현 안 되는 스레드 장애, 무엇을 어떤 순서로 봐야 하나",
+              "path": "domains/12-java-concurrency/java_thread/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "Runnable vs Callable, 그리고 스레드를 매번 새로 만들면 생기는 병목",
+              "path": "domains/12-java-concurrency/java_thread/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "Future 완료를 관측하고, 스레드 처리 한계를 숫자로 산정하기",
+              "path": "domains/12-java-concurrency/java_thread/4year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "12-java-concurrency",
+          "topicFolder": "synchronized_volatile",
+          "domain": "java_concurrency",
+          "domainLabel": "자바 동시성",
+          "topic": "synchronized_volatile",
+          "topicLabel": "synchronized와 volatile",
+          "path": "domains/12-java-concurrency/synchronized_volatile/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "synchronized와 volatile, 두 가지가 막는 문제가 다른 이유",
+              "path": "domains/12-java-concurrency/synchronized_volatile/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "synchronized/volatile 장애를 재현 없이 진단하고, 누적 비용까지 보기",
+              "path": "domains/12-java-concurrency/synchronized_volatile/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "넓은 synchronized 블록이 만드는 병목, 안전하지 않은 공개가 만드는 연쇄 장애",
+              "path": "domains/12-java-concurrency/synchronized_volatile/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "synchronized 블록의 처리량 상한을 계산하고, 관측 코드 자체가 병목이 되는 역설을 피하기",
+              "path": "domains/12-java-concurrency/synchronized_volatile/4year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "12-java-concurrency",
+          "topicFolder": "thread_local",
+          "domain": "java_concurrency",
+          "domainLabel": "자바 동시성",
+          "topic": "thread_local",
+          "topicLabel": "ThreadLocal",
+          "path": "domains/12-java-concurrency/thread_local/_topic.json",
+          "levels": [
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "ThreadLocal 서랍에 뭘 담을지와, 그 서랍을 누가 비우는지는 다른 문제다",
+              "path": "domains/12-java-concurrency/thread_local/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "ThreadLocal 장애를 스레드 재사용 관점에서 추적하고, 사용자 영향과 내부 영향을 나누기",
+              "path": "domains/12-java-concurrency/thread_local/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "ThreadLocal을 더 쓸지 말지, 네 가지 기준으로 판단하기",
+              "path": "domains/12-java-concurrency/thread_local/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "Executor 대기열 이상을 ThreadLocal 오염 가설로 검증하고 즉시 완화·재발 방지하기",
+              "path": "domains/12-java-concurrency/thread_local/4year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "13-concurrency",
+      "domain": "concurrency",
+      "domainLabel": "동시성",
+      "topics": [
+        {
+          "domainFolder": "13-concurrency",
+          "topicFolder": "cas_atomic",
+          "domain": "concurrency",
+          "domainLabel": "동시성",
+          "topic": "cas_atomic",
+          "topicLabel": "CAS와 원자적 연산",
+          "path": "domains/13-concurrency/cas_atomic/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "CAS와 원자적 연산이 내부적으로 어떻게 동작하는가",
+              "path": "domains/13-concurrency/cas_atomic/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "CAS를 쓴다고 코드 전체가 데드락에서 안전해지진 않는다",
+              "path": "domains/13-concurrency/cas_atomic/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "표준 Atomic 클래스와 LongAdder, 언제 뭘 써야 하나",
+              "path": "domains/13-concurrency/cas_atomic/4year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "CAS 주변의 가시성 버그, 그리고 이걸 관찰 가능하게 만드는 법",
+              "path": "domains/13-concurrency/cas_atomic/6year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "13-concurrency",
+          "topicFolder": "deadlock_starvation",
+          "domain": "concurrency",
+          "domainLabel": "동시성",
+          "topic": "deadlock_starvation",
+          "topicLabel": "데드락과 기아 상태",
+          "path": "domains/13-concurrency/deadlock_starvation/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "손들이 서로 열쇠를 기다리며 멈추는 이유",
+              "path": "domains/13-concurrency/deadlock_starvation/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "두 요청이 실제로 얽히는 과정과, 로그로 데드락을 확인하는 법",
+              "path": "domains/13-concurrency/deadlock_starvation/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "넓은 임계 구역이 만드는 데드락, 재현 안 되는 장애를 추적하는 순서",
+              "path": "domains/13-concurrency/deadlock_starvation/4year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "배포가 만든 데드락 장애 정리, 그리고 여러 서비스에 걸친 데드락 재설계",
+              "path": "domains/13-concurrency/deadlock_starvation/6year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "13-concurrency",
+          "topicFolder": "lock_mutex",
+          "domain": "concurrency",
+          "domainLabel": "동시성",
+          "topic": "lock_mutex",
+          "topicLabel": "락과 뮤텍스",
+          "path": "domains/13-concurrency/lock_mutex/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "자물쇠 하나로 여러 손을 줄 세우는 방법",
+              "path": "domains/13-concurrency/lock_mutex/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "락을 도입하기 전에 확인할 것, 재고 차감으로 보는 실제 동작",
+              "path": "domains/13-concurrency/lock_mutex/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "락 경합인지 확인하는 지표, 공정성 없는 락이 만드는 실패",
+              "path": "domains/13-concurrency/lock_mutex/4year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "자물쇠 하나로 단순하게 갈지, 여러 개로 쪼개 확장할지",
+              "path": "domains/13-concurrency/lock_mutex/6year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "13-concurrency",
+          "topicFolder": "race_condition",
+          "domain": "concurrency",
+          "domainLabel": "동시성",
+          "topic": "race_condition",
+          "topicLabel": "경쟁 상태",
+          "path": "domains/13-concurrency/race_condition/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "경쟁 상태는 내부적으로 어떻게 생기는가",
+              "path": "domains/13-concurrency/race_condition/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "재현이 잘 안 되는 경쟁 상태 장애, 어떤 순서로 파고드나",
+              "path": "domains/13-concurrency/race_condition/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "경쟁 상태를 관찰 가능하게 만드는 지표 설계",
+              "path": "domains/13-concurrency/race_condition/4year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "트래픽 10배 확장과, 방지 로직을 어디에 둘 것인가",
+              "path": "domains/13-concurrency/race_condition/6year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "13-concurrency",
+          "topicFolder": "visibility_ordering",
+          "domain": "concurrency",
+          "domainLabel": "동시성",
+          "topic": "visibility_ordering",
+          "topicLabel": "가시성과 실행 순서",
+          "path": "domains/13-concurrency/visibility_ordering/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "왜 손마다 다른 값을 보게 될까 — 재정렬과 메모리 배리어",
+              "path": "domains/13-concurrency/visibility_ordering/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "단순하게 다 잠글까, 세밀하게 volatile을 놓을까",
+              "path": "domains/13-concurrency/visibility_ordering/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "락 경합처럼 보이지만 사실은 스핀 대기 — thread dump로 구분하기",
+              "path": "domains/13-concurrency/visibility_ordering/4year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "memory barrier 비용으로 처리 한계 계산하기",
+              "path": "domains/13-concurrency/visibility_ordering/6year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "14-performance",
+      "domain": "performance",
+      "domainLabel": "성능",
+      "topics": [
+        {
+          "domainFolder": "14-performance",
+          "topicFolder": "bottleneck",
+          "domain": "performance",
+          "domainLabel": "성능",
+          "topic": "bottleneck",
+          "topicLabel": "병목",
+          "path": "domains/14-performance/bottleneck/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "여력이 부족해 보일 때, 진짜 원인부터 가설을 세우는 법",
+              "path": "domains/14-performance/bottleneck/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "병목은 내부적으로 어떤 순서로 만들어지는가",
+              "path": "domains/14-performance/bottleneck/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "병목 분석이 늦어서 장애로 번질 때: 실패 모드와 재현 안 되는 장애",
+              "path": "domains/14-performance/bottleneck/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "병목을 관찰 가능하게 만들기: 지표 설계와 증설 임계값",
+              "path": "domains/14-performance/bottleneck/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "장애 회고 정리와 여러 서비스에 걸친 병목 재설계",
+              "path": "domains/14-performance/bottleneck/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "처리 한계를 숫자로 산정하고, 공유 자원의 판단 권한을 정하기",
+              "path": "domains/14-performance/bottleneck/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "장애 격리와 백프레셔로 병목을 방어선 여러 겹으로 막기",
+              "path": "domains/14-performance/bottleneck/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "병목 분석 도구는 어디에 둘 것인가, 오진은 어떤 비용을 남기는가",
+              "path": "domains/14-performance/bottleneck/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "트래픽 10배 확장의 순서와 병목 개선의 장기적 트레이드오프",
+              "path": "domains/14-performance/bottleneck/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "14-performance",
+          "topicFolder": "latency_throughput",
+          "domain": "performance",
+          "domainLabel": "성능",
+          "topic": "latency_throughput",
+          "topicLabel": "지연시간과 처리량",
+          "path": "domains/14-performance/latency_throughput/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "지연시간과 처리량, 처음 만나기 — capacity headroom이 부족해 보일 때",
+              "path": "domains/14-performance/latency_throughput/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "처리량이 한계에 다다랐는지(saturation) 확인하기, 그리고 SLO를 잘못 세우면 생기는 일",
+              "path": "domains/14-performance/latency_throughput/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "평균만 볼까, p50/p95/p99까지 나눠 볼까 — 지표 설계의 트레이드오프",
+              "path": "domains/14-performance/latency_throughput/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "온콜 부담과 지표 정교함의 균형, 그리고 재현 안 되는 지연시간 장애 다루기",
+              "path": "domains/14-performance/latency_throughput/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "지연시간과 처리량을 관찰 가능하게 만들기 — SLI, 메트릭, 로그, 트레이스",
+              "path": "domains/14-performance/latency_throughput/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "여러 서비스를 거치는 지연시간의 소유권, 그리고 연쇄 장애로 번지는 과정",
+              "path": "domains/14-performance/latency_throughput/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "한계 임계값 판단, 백프레셔로 막기, 장애를 격리하기",
+              "path": "domains/14-performance/latency_throughput/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "지연시간·처리량 계측은 어디에 둬야 할까, 그리고 headroom이 바닥난 장애의 타임라인",
+              "path": "domains/14-performance/latency_throughput/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "트래픽이 10배 늘어난다면 — 지연시간·처리량 관점에서 확장 순서 정하기",
+              "path": "domains/14-performance/latency_throughput/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "14-performance",
+          "topicFolder": "little_law",
+          "domain": "performance",
+          "domainLabel": "성능",
+          "topic": "little_law",
+          "topicLabel": "리틀의 법칙",
+          "path": "domains/14-performance/little_law/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "대기줄이 길어졌을 때, 리틀의 법칙으로 원인을 좁히기",
+              "path": "domains/14-performance/little_law/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "평균만 보고 설계하면 왜 피크에서 터지는가, 재현 안 되는 장애는 어떻게 파고드나",
+              "path": "domains/14-performance/little_law/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "리틀의 법칙을 눈으로 볼 수 있게 만들기 — SLI·메트릭·로그·트레이스 설계",
+              "path": "domains/14-performance/little_law/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "처리 한계를 숫자로 산정하기, 그리고 처리량 한계 장애의 타임라인 읽기",
+              "path": "domains/14-performance/little_law/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "리틀의 법칙, 코드·라이브러리·인프라 중 어디에 둬야 하나",
+              "path": "domains/14-performance/little_law/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "자바/스프링 서버의 연쇄 장애, 그리고 트래픽 10배 증가 시의 확장 순서",
+              "path": "domains/14-performance/little_law/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "처리량 한계를 조기에 잡아내는 대시보드와 임계값 — 격리·백프레셔·헤드룸까지",
+              "path": "domains/14-performance/little_law/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "여러 서비스에 걸친 문제를 재설계하기, 그리고 배치 결정을 전환 비용·팀 역량·운영성으로 다시 보기",
+              "path": "domains/14-performance/little_law/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "리틀의 법칙 장애 사후 정리와 10배 확장 판단",
+              "path": "domains/14-performance/little_law/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "14-performance",
+          "topicFolder": "pool_sizing",
+          "domain": "performance",
+          "domainLabel": "성능",
+          "topic": "pool_sizing",
+          "topicLabel": "풀 크기 조정",
+          "path": "domains/14-performance/pool_sizing/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "대기줄이 길어졌을 때, 풀 크기 부족을 의심하는 법",
+              "path": "domains/14-performance/pool_sizing/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "풀 크기를 바꾸기 전에 확인해야 할 것들",
+              "path": "domains/14-performance/pool_sizing/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "처리량이 한계에 부딪혔을 때: 지표로 확인하고, 역설적 실패를 피하기",
+              "path": "domains/14-performance/pool_sizing/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "풀 크기 설정은 어디에 두고, 어떤 트레이드오프를 판단해야 하나",
+              "path": "domains/14-performance/pool_sizing/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "고정 크기 vs 적응형 크기, 그리고 거부의 악순환",
+              "path": "domains/14-performance/pool_sizing/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "풀 크기 설정의 소유권: 우리 팀 값, 남의 팀 용량",
+              "path": "domains/14-performance/pool_sizing/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "격리된 풀, 배압, 그리고 여유를 관찰하기",
+              "path": "domains/14-performance/pool_sizing/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "포화 장애의 타임라인과 서비스 경계 재설계",
+              "path": "domains/14-performance/pool_sizing/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "풀 크기 조정의 장기적 트레이드오프와 담당 주체",
+              "path": "domains/14-performance/pool_sizing/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "14-performance",
+          "topicFolder": "profiling_benchmark",
+          "domain": "performance",
+          "domainLabel": "성능",
+          "topic": "profiling_benchmark",
+          "topicLabel": "프로파일링과 벤치마크",
+          "path": "domains/14-performance/profiling_benchmark/_topic.json",
+          "levels": [
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "프로파일링과 벤치마크, 처음 만나기 — headroom 부족이 진짜인지 의심하기",
+              "path": "domains/14-performance/profiling_benchmark/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "재현 안 되는 장애 진단하기, 그리고 상시 프로파일링을 둘지 결정하기",
+              "path": "domains/14-performance/profiling_benchmark/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "회귀 판단 임계값 정하기, 그리고 꼬리 지연이 벤치마크 문제인지 가려내기",
+              "path": "domains/14-performance/profiling_benchmark/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "잘못된 벤치마크 하나가 연쇄 장애로 번지는 과정",
+              "path": "domains/14-performance/profiling_benchmark/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "관찰 도구 자체의 용량, 그리고 장애 타임라인에서 벤치마크 결함 분리하기",
+              "path": "domains/14-performance/profiling_benchmark/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "baseline은 누가 소유하는가 — 트레이드오프와 도입 전 요구사항",
+              "path": "domains/14-performance/profiling_benchmark/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "꼬리 지연을 조기에 발견하는 대시보드와 알림 설계",
+              "path": "domains/14-performance/profiling_benchmark/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "여러 서비스에 걸친 벤치마크 표준화, 서비스 경계를 다시 그리는 문제",
+              "path": "domains/14-performance/profiling_benchmark/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "상시 프로파일링 vs 필요시 프로파일링, 그리고 조직 차원의 장애 사후 정리",
+              "path": "domains/14-performance/profiling_benchmark/10year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "15-messaging",
+      "domain": "messaging",
+      "domainLabel": "메시징",
+      "topics": [
+        {
+          "domainFolder": "15-messaging",
+          "topicFolder": "consumer_group",
+          "domain": "messaging",
+          "domainLabel": "메시징",
+          "topic": "consumer_group",
+          "topicLabel": "컨슈머 그룹",
+          "path": "domains/15-messaging/consumer_group/_topic.json",
+          "levels": [
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "사서함을 나눠 맡는 조, 컨슈머 그룹의 실무 판단",
+              "path": "domains/15-messaging/consumer_group/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "단순함 대 확장성, 실패 모드와 데이터 소유권으로 다시 보기",
+              "path": "domains/15-messaging/consumer_group/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "장애 격리·백프레셔·용량 여유, 그리고 사용자 체감 대 내부 영향",
+              "path": "domains/15-messaging/consumer_group/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "컨슈머 그룹 로직을 어디에 둘까 — 전환 비용과 팀 역량까지",
+              "path": "domains/15-messaging/consumer_group/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "DLQ 관측성 — 유지보수성, 비용, 가용성, 장기 담당 주체까지",
+              "path": "domains/15-messaging/consumer_group/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "15-messaging",
+          "topicFolder": "delivery_semantics",
+          "domain": "messaging",
+          "domainLabel": "메시징",
+          "topic": "delivery_semantics",
+          "topicLabel": "전달 보장 수준",
+          "path": "domains/15-messaging/delivery_semantics/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "재시도 트래픽이 몰리는 걸 조기에 알아채는 법",
+              "path": "domains/15-messaging/delivery_semantics/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "파티션 순서가 뒤섞일 때, 대시보드에 무엇을 더 올려야 하나",
+              "path": "domains/15-messaging/delivery_semantics/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "장애 타임라인에서 전달 방식 문제와 다른 원인을 구분하기",
+              "path": "domains/15-messaging/delivery_semantics/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "전달 방식은 애플리케이션, 공통 라이브러리, 인프라 중 어디에 둬야 하나",
+              "path": "domains/15-messaging/delivery_semantics/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "15-messaging",
+          "topicFolder": "kafka_partition",
+          "domain": "messaging",
+          "domainLabel": "메시징",
+          "topic": "kafka_partition",
+          "topicLabel": "카프카 파티션",
+          "path": "domains/15-messaging/kafka_partition/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "파티션이 한계에 가까워졌는지 판단하는 기준",
+              "path": "domains/15-messaging/kafka_partition/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "장애 격리, 백프레셔, 용량 여유로 나눠 본 파티션 한계",
+              "path": "domains/15-messaging/kafka_partition/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "파티션 문제가 여러 서비스에 번질 때, 서비스 경계를 다시 긋는 법",
+              "path": "domains/15-messaging/kafka_partition/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "파티션 설계를 누가, 얼마나 오래 책임져야 하나",
+              "path": "domains/15-messaging/kafka_partition/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "15-messaging",
+          "topicFolder": "outbox",
+          "domain": "messaging",
+          "domainLabel": "메시징",
+          "topic": "outbox",
+          "topicLabel": "아웃박스 패턴",
+          "path": "domains/15-messaging/outbox/_topic.json",
+          "levels": [
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "DB 기록과 이벤트 발행이 따로 놀 때 — 아웃박스 패턴 첫걸음",
+              "path": "domains/15-messaging/outbox/4year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "컨슈머 지연처럼 보이는 폴러 지연 — 실패 모드와 데이터 소유권",
+              "path": "domains/15-messaging/outbox/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "단순 구조의 backpressure와 장애 격리, capacity headroom",
+              "path": "domains/15-messaging/outbox/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "아웃박스 패턴을 어디에 둘 것인가 — 전환 비용과 팀 역량",
+              "path": "domains/15-messaging/outbox/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "파티션 순서 붕괴를 조기에 잡는 대시보드와 담당 주체",
+              "path": "domains/15-messaging/outbox/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "15-messaging",
+          "topicFolder": "producer_consumer",
+          "domain": "messaging",
+          "domainLabel": "메시징",
+          "topic": "producer_consumer",
+          "topicLabel": "생산자와 소비자",
+          "path": "domains/15-messaging/producer_consumer/_topic.json",
+          "levels": [
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "생산자-소비자 패턴의 기본 흐름과 도입 전 점검",
+              "path": "domains/15-messaging/producer_consumer/3year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "용량 산정, 관찰 가능성, 배치 기준으로 보는 생산자-소비자",
+              "path": "domains/15-messaging/producer_consumer/5year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "순서 보장과 스키마, 데이터 소유권으로 다시 보는 생산자-소비자",
+              "path": "domains/15-messaging/producer_consumer/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "컨슈머 랙 대시보드를 사용자 영향과 내부 리소스로 나눠 설계하기",
+              "path": "domains/15-messaging/producer_consumer/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "컨슈머 랙 장애를 전환 비용, 팀 역량, 운영 편의성으로 정리하기",
+              "path": "domains/15-messaging/producer_consumer/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "생산자-소비자 구조의 장기적 소유권 — 애플리케이션, 라이브러리, 인프라의 경계",
+              "path": "domains/15-messaging/producer_consumer/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "15-messaging",
+          "topicFolder": "retry_dlq",
+          "domain": "messaging",
+          "domainLabel": "메시징",
+          "topic": "retry_dlq",
+          "topicLabel": "재시도와 데드레터 큐",
+          "path": "domains/15-messaging/retry_dlq/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "재시도와 DLQ, 어디에 두고 누가 책임질 것인가",
+              "path": "domains/15-messaging/retry_dlq/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "재시도와 DLQ가 한계에 가까워졌다는 신호 읽기",
+              "path": "domains/15-messaging/retry_dlq/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "재시도와 DLQ 문제가 여러 서비스로 번질 때 경계 다시 긋기",
+              "path": "domains/15-messaging/retry_dlq/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "재시도와 DLQ 한계를 유지보수성·비용·가용성·담당 주체로 다시 보기",
+              "path": "domains/15-messaging/retry_dlq/10year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "16-reliability",
+      "domain": "reliability",
+      "domainLabel": "신뢰성",
+      "topics": [
+        {
+          "domainFolder": "16-reliability",
+          "topicFolder": "bulkhead",
+          "domain": "reliability",
+          "domainLabel": "신뢰성",
+          "topic": "bulkhead",
+          "topicLabel": "벌크헤드",
+          "path": "domains/16-reliability/bulkhead/_topic.json",
+          "levels": [
+            {
+              "level": "5year",
+              "levelLabel": "5년차",
+              "title": "벌크헤드 도입 전 확인할 것들과 처음 만드는 관찰 체계",
+              "path": "domains/16-reliability/bulkhead/5year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "벌크헤드 용량 산정에 실패 모드와 소유권까지 얹기",
+              "path": "domains/16-reliability/bulkhead/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "벌크헤드 포화로 인한 장애 — 백프레셔와 용량 여유",
+              "path": "domains/16-reliability/bulkhead/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "여러 서비스에 걸친 벌크헤드 문제 재설계하기",
+              "path": "domains/16-reliability/bulkhead/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "벌크헤드·회로 차단기 통합 대시보드의 장기 운영",
+              "path": "domains/16-reliability/bulkhead/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "16-reliability",
+          "topicFolder": "circuit_breaker",
+          "domain": "reliability",
+          "domainLabel": "신뢰성",
+          "topic": "circuit_breaker",
+          "topicLabel": "회로 차단기",
+          "path": "domains/16-reliability/circuit_breaker/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "회로 차단기의 세 가지 상태, 그리고 트래픽 10배 확장 순서",
+              "path": "domains/16-reliability/circuit_breaker/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "장애 격리, 백프레셔, 용량 여유로 다시 보는 확장 순서",
+              "path": "domains/16-reliability/circuit_breaker/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "페일오버 장애 타임라인에서 회로 차단기 문제를 가려내는 법",
+              "path": "domains/16-reliability/circuit_breaker/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "회로 차단기가 한계에 가까워졌는지, 언제 증설해야 하는지 판단하기",
+              "path": "domains/16-reliability/circuit_breaker/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "16-reliability",
+          "topicFolder": "failover_recovery",
+          "domain": "reliability",
+          "domainLabel": "신뢰성",
+          "topic": "failover_recovery",
+          "topicLabel": "페일오버와 복구",
+          "path": "domains/16-reliability/failover_recovery/_topic.json",
+          "levels": [
+            {
+              "level": "4year",
+              "levelLabel": "4년차",
+              "title": "페일오버를 관찰하고, 설계 판단을 내리고, 장애를 진단하는 법",
+              "path": "domains/16-reliability/failover_recovery/4year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "여러 시스템이 동시에 failover를 판단할 때 생기는 충돌과 소유권",
+              "path": "domains/16-reliability/failover_recovery/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "트래픽이 10배 늘어날 때 페일오버 구조를 확장하는 순서",
+              "path": "domains/16-reliability/failover_recovery/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "failover 자체는 성공했는데 retry storm으로 번지는 장애",
+              "path": "domains/16-reliability/failover_recovery/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "이중화 전략의 한계, 누적 비용, 그리고 장기적인 담당 주체",
+              "path": "domains/16-reliability/failover_recovery/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "16-reliability",
+          "topicFolder": "graceful_degradation",
+          "domain": "reliability",
+          "domainLabel": "신뢰성",
+          "topic": "graceful_degradation",
+          "topicLabel": "우아한 성능 저하",
+          "path": "domains/16-reliability/graceful_degradation/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "우아한 성능 저하 도입 전 확인 사항과 이중 실패",
+              "path": "domains/16-reliability/graceful_degradation/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "저하 모드가 오히려 장애를 키울 때 — capacity headroom과 backpressure",
+              "path": "domains/16-reliability/graceful_degradation/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "여러 서비스에 걸친 저하 모드 설계",
+              "path": "domains/16-reliability/graceful_degradation/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "저하 모드 대시보드와 장기 소유권",
+              "path": "domains/16-reliability/graceful_degradation/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "16-reliability",
+          "topicFolder": "rate_limiting",
+          "domain": "reliability",
+          "domainLabel": "신뢰성",
+          "topic": "rate_limiting",
+          "topicLabel": "속도 제한",
+          "path": "domains/16-reliability/rate_limiting/_topic.json",
+          "levels": [
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "속도 제한의 트레이드오프와 관측 지표",
+              "path": "domains/16-reliability/rate_limiting/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "트래픽 피크를 전제로 quota와 headroom 잡기",
+              "path": "domains/16-reliability/rate_limiting/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "Rate limiting은 어디에 둘 것인가",
+              "path": "domains/16-reliability/rate_limiting/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "중앙 rate limiter의 유지보수성과 소유권",
+              "path": "domains/16-reliability/rate_limiting/10year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "16-reliability",
+          "topicFolder": "timeout_retry",
+          "domain": "reliability",
+          "domainLabel": "신뢰성",
+          "topic": "timeout_retry",
+          "topicLabel": "타임아웃과 재시도",
+          "path": "domains/16-reliability/timeout_retry/_topic.json",
+          "levels": [
+            {
+              "level": "6year",
+              "levelLabel": "6년차",
+              "title": "타임아웃과 재시도 정책의 기본 설계",
+              "path": "domains/16-reliability/timeout_retry/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "7년차",
+              "title": "재시도 장애의 원인, 영향 범위, 소유권",
+              "path": "domains/16-reliability/timeout_retry/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "8년차",
+              "title": "도입 전 확인해야 할 backpressure와 headroom",
+              "path": "domains/16-reliability/timeout_retry/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "9년차",
+              "title": "공통 라이브러리로 표준화할 때의 비용",
+              "path": "domains/16-reliability/timeout_retry/9year.json"
+            },
+            {
+              "level": "10year",
+              "levelLabel": "10년차",
+              "title": "Timeout/Retry 표준의 장기 소유권",
+              "path": "domains/16-reliability/timeout_retry/10year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "18-velog",
+      "domain": "velog",
+      "domainLabel": "Velog 백엔드 시리즈",
+      "topics": [
+        {
+          "domainFolder": "18-velog",
+          "topicFolder": "backend-basic-flow",
+          "domain": "velog",
+          "domainLabel": "Velog 백엔드 시리즈",
+          "topic": "velog_backend_basic_flow",
+          "topicLabel": "백엔드가 딱! 좋아! 백엔드와 서버의 기본 흐름 이해편",
+          "path": "domains/18-velog/backend-basic-flow/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "01. 웹 브라우저에서 주소를 입력하면 무슨 일이 일어날까?",
+              "path": "domains/18-velog/backend-basic-flow/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "1년차",
+              "title": "02. HTTP는 왜 Stateless일까?",
+              "path": "domains/18-velog/backend-basic-flow/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "1년차",
+              "title": "03. 쿠키와 세션은 왜 필요할까?",
+              "path": "domains/18-velog/backend-basic-flow/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "2년차",
+              "title": "04. JWT는 세션과 무엇이 다를까?",
+              "path": "domains/18-velog/backend-basic-flow/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "2년차",
+              "title": "05. REST API는 왜 RESTful하게 설계할까?",
+              "path": "domains/18-velog/backend-basic-flow/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "입문자",
+              "title": "06. 클라이언트와 서버는 어떻게 통신할까?",
+              "path": "domains/18-velog/backend-basic-flow/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "입문자",
+              "title": "07. JSON은 왜 많이 사용할까?",
+              "path": "domains/18-velog/backend-basic-flow/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "1년차",
+              "title": "08. HTTP Method는 왜 나뉘어 있을까?",
+              "path": "domains/18-velog/backend-basic-flow/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "1년차",
+              "title": "09. HTTP 상태 코드는 왜 중요할까?",
+              "path": "domains/18-velog/backend-basic-flow/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "2년차",
+              "title": "10. Keep-Alive는 왜 성능을 향상시킬까?",
+              "path": "domains/18-velog/backend-basic-flow/9year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "18-velog",
+          "topicFolder": "spring-request-flow",
+          "domain": "velog",
+          "domainLabel": "Velog 백엔드 시리즈",
+          "topic": "velog_spring_request_flow",
+          "topicLabel": "백엔드가 딱! 좋아! Spring 요청 처리 흐름 이해편",
+          "path": "domains/18-velog/spring-request-flow/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "01. Spring Boot는 왜 이렇게 빠르게 개발할 수 있을까?",
+              "path": "domains/18-velog/spring-request-flow/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "2년차",
+              "title": "02. DispatcherServlet은 어떤 역할을 할까?",
+              "path": "domains/18-velog/spring-request-flow/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "2년차",
+              "title": "03. Filter와 Interceptor는 무엇이 다를까?",
+              "path": "domains/18-velog/spring-request-flow/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "2년차",
+              "title": "04. Controller까지 요청은 어떻게 도착할까?",
+              "path": "domains/18-velog/spring-request-flow/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "2년차",
+              "title": "05. @RequestBody는 내부적으로 어떻게 동작할까?",
+              "path": "domains/18-velog/spring-request-flow/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "1년차",
+              "title": "06. DTO는 왜 사용하는 걸까?",
+              "path": "domains/18-velog/spring-request-flow/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "3년차",
+              "title": "07. Argument Resolver는 무엇일까?",
+              "path": "domains/18-velog/spring-request-flow/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "1년차",
+              "title": "08. ResponseEntity는 왜 사용할까?",
+              "path": "domains/18-velog/spring-request-flow/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "1년차",
+              "title": "09. Spring Bean은 어떻게 관리될까?",
+              "path": "domains/18-velog/spring-request-flow/8year.json"
+            },
+            {
+              "level": "9year",
+              "levelLabel": "입문자",
+              "title": "10. IoC와 DI는 왜 중요할까?",
+              "path": "domains/18-velog/spring-request-flow/9year.json"
+            }
+          ]
+        },
+        {
+          "domainFolder": "18-velog",
+          "topicFolder": "spring-internal-structure",
+          "domain": "velog",
+          "domainLabel": "Velog 백엔드 시리즈",
+          "topic": "velog_spring_internal_structure",
+          "topicLabel": "백엔드가 딱! 좋아! Spring 내부 동작 구조편",
+          "path": "domains/18-velog/spring-internal-structure/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "2년차",
+              "title": "01. Spring은 왜 Proxy를 사용할까?",
+              "path": "domains/18-velog/spring-internal-structure/beginner.json"
+            },
+            {
+              "level": "1year",
+              "levelLabel": "2년차",
+              "title": "02. AOP는 왜 필요할까?",
+              "path": "domains/18-velog/spring-internal-structure/1year.json"
+            },
+            {
+              "level": "2year",
+              "levelLabel": "3년차",
+              "title": "03. @Transactional은 어떻게 동작할까?",
+              "path": "domains/18-velog/spring-internal-structure/2year.json"
+            },
+            {
+              "level": "3year",
+              "levelLabel": "3년차",
+              "title": "04. 왜 같은 클래스 내부 호출에서는 @Transactional이 동작하지 않을까?",
+              "path": "domains/18-velog/spring-internal-structure/3year.json"
+            },
+            {
+              "level": "4year",
+              "levelLabel": "3년차",
+              "title": "05. Spring 트랜잭션 롤백의 진짜 기준은 무엇일까?",
+              "path": "domains/18-velog/spring-internal-structure/4year.json"
+            },
+            {
+              "level": "5year",
+              "levelLabel": "2년차",
+              "title": "06. Checked Exception과 RuntimeException은 왜 다르게 처리될까?",
+              "path": "domains/18-velog/spring-internal-structure/5year.json"
+            },
+            {
+              "level": "6year",
+              "levelLabel": "4년차",
+              "title": "07. rollbackFor는 내부적으로 무엇을 할까?",
+              "path": "domains/18-velog/spring-internal-structure/6year.json"
+            },
+            {
+              "level": "7year",
+              "levelLabel": "4년차",
+              "title": "08. ThreadLocal은 Spring 어디에서 사용될까?",
+              "path": "domains/18-velog/spring-internal-structure/7year.json"
+            },
+            {
+              "level": "8year",
+              "levelLabel": "4년차",
+              "title": "09. Spring Security는 인증 상태를 어떻게 유지할까?",
+              "path": "domains/18-velog/spring-internal-structure/8year.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domainFolder": "24-etc",
+      "domain": "software_engineering",
+      "domainLabel": "소프트웨어 엔지니어링",
+      "topics": [
+        {
+          "domainFolder": "24-etc",
+          "topicFolder": "srp_principle",
+          "domain": "software_engineering",
+          "domainLabel": "소프트웨어 엔지니어링",
+          "topic": "srp_principle",
+          "topicLabel": "단일 책임 원칙(SRP)",
+          "path": "domains/24-etc/srp_principle/_topic.json",
+          "levels": [
+            {
+              "level": "beginner",
+              "levelLabel": "입문자",
+              "title": "Employee 클래스로 보는 SRP 위반의 세 가지 문제와 과도한 분리의 부작용",
+              "path": "domains/24-etc/srp_principle/beginner.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
