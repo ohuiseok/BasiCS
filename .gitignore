@@ -1,0 +1,50 @@
+# --- Secrets / signing (never commit) ---
+.env
+.env.*
+!.env.example
+release/signing-backup/
+*.keystore
+*.jks
+release-signing.properties
+
+# --- Dependencies ---
+node_modules/
+
+# --- Expo ---
+.expo/
+dist/
+dist-*/
+web-build/
+
+# --- Native build output ---
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+ios/build/
+ios/Pods/
+
+# --- Release artifacts (large binaries, generated) ---
+release/*.apk
+release/*.aab
+release/*.zip
+
+# --- Logs / build output dumps ---
+*.log
+*.out
+*.err
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Ad-hoc dev screenshots dumped in repo root (not app assets) ---
+/*.png
+/*.jpg
+/*.jpeg
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+
+# --- Local Claude settings ---
+.claude/settings.local.json
